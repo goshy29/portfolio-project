@@ -22,7 +22,7 @@ This React Portfolio with in-memory database is a dynamic, responsive portfolio 
 3. Data: A JavaScript file with JSON objects to simulate the in-memory database containing project information.
 
 ## To run this project locally, follow these steps:
-1. Clone the repository: git clone https://github.com/yourusername/react-portfolio
+1. Clone the repository: git clone https://github.com/goshy29/portfolio-project.git
 2. Open the project with your code editor(VS Code) and open New Terminal
 3. To install dependencies, at the Terminal run: npm install
 4. Start the development server: npm start
