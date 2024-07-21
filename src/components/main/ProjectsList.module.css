@@ -1,0 +1,10 @@
+.project_items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+
+.project_items li {
+    list-style: none;
+    border: solid 1px white;
+}
