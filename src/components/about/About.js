@@ -4,7 +4,7 @@ import { ABOUT } from "../../data/about";
 function About() {
     ABOUT.about_me = ABOUT.about_me.replace(/\n/g, "<br />");
 
-    return (
+    return ( 
         <div className={classes.about}>
             <p dangerouslySetInnerHTML={{
                 __html: ABOUT.about_me

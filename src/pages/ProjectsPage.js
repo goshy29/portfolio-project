@@ -7,13 +7,12 @@ function ProjectsPage() {
     return (
         <>
             <Helmet>
-                <title>All Projects</title>
-                <meta name="description" content="Explore my projects at My Website." />
+                <title>All Projects</title>  
+                <meta name="description" content="Explore my projects at My Website." /> 
             </Helmet>
 
             <MainSectionLayout>
-                <h1 className="center">All Projects</h1>
-                <ProjectsList projects={ALL_PROJECTS} />
+                <ProjectsList projects={ALL_PROJECTS} title="All Projects"/>
             </MainSectionLayout>
         </>
     );

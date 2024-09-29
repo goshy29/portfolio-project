@@ -1,12 +1,12 @@
 export const ABOUT = {
     about_me: `
-        GEORGI DOBROMIROV 
+        GEORGI DOBROMIROV
 
         Phone Number: +359884054458
         Email: georgi.dobromirov@gmail.com
         LinkedIn: https://www.linkedin.com/in/georgi-dobromirov-aa3946280/
 
-        Hello! My name is Georgi Dobromirov and I am graduate of the University of Economics - Varna, where I earned my bachelor's degree in Informatics. I have years of experience as a software developer. On this site you will find some nice looking projects at React and Next.js which i prepare for you with different configurations of databases they communicate with. I will be glad if you call me.
+        Hello! My name is Georgi Dobromirov and I am graduate of the University of Economics - Varna, where I earned my bachelor's degree in Informatics. I have years of experience as a software developer. On this site you will find some nice looking projects at React, Next.js and Angular which i prepare for you with different configurations of databases they communicate with. Each project includes description, some other details, GitHub repository link, everything you need to start the projects locally. I will be glad if you call me.
 
         WORK EXPERIENCE
         Senior Software Developer

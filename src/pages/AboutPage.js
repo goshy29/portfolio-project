@@ -6,8 +6,8 @@ function AboutPage() {
     return (
         <>
             <Helmet>
-                <title>About</title>
-                <meta name="description" content="Learn more about the creator of this Website." />
+                <title>About</title>  
+                <meta name="description" content="Learn more about the creator of this Website." /> 
             </Helmet>
 
             <MainSectionLayout>

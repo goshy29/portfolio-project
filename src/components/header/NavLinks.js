@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
 
 function NavLinks(props) {
-    return (
+    return ( 
         <>
             <li className={classes.navbar_item}>
                 <NavLink to="/" onClick={props.onClick} className={({ isActive }) => isActive ? classes.active : classes.navbar_link} end>

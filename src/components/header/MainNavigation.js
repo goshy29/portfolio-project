@@ -18,17 +18,17 @@ function MainNavigation() {
 
     return (
         <>
-            {isMobileNavOpen && (<MobileNavWrap onClick={handlerCloseMobileNav} />)}
-            {isMobileNavOpen &&
+            {isMobileNavOpen && (<MobileNavWrap onClick={handlerCloseMobileNav}/>)}
+            {isMobileNavOpen && 
                 (<MobileNavigation onClose={handlerCloseMobileNav}>
                     <nav className={classes.mobile_navbar}>
                         <ul className={classes.mobile_navbar_list}>
                             <NavLinks onClick={handlerCloseMobileNav} />
-                        </ul>
-                    </nav>
+                        </ul>    
+                    </nav>        
                 </MobileNavigation>)
             }
-
+        
             <header className={classes.main_header}>
                 <div className={classes.navigation}>
                     <nav className={classes.navbar}>
@@ -42,7 +42,7 @@ function MainNavigation() {
                             <Link to="/" className={classes.navbar_logo_link}>Portfolio</Link>
                         </div>
                         <ul className={classes.navbar_list}>
-                            <NavLinks />
+                            <NavLinks/>
                         </ul>
                     </nav>
                 </div>
