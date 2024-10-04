@@ -39,7 +39,7 @@ function MainNavigation() {
                         </button>
 
                         <div className={classes.navbar_logo}>
-                            <Link to="/" className={classes.navbar_logo_link}>Portfolio</Link>
+                            <Link to="/" className={classes.navbar_logo_link}>GD</Link>
                         </div>
                         <ul className={classes.navbar_list}>
                             <NavLinks/>

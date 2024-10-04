@@ -1,23 +1,55 @@
 .wrap {
-  background: #0a0919; 
+  position: relative;
+  background-image: url("../../assets/images//backg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  z-index: 1;
+}
+
+.wrap::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  z-index: 0;
+  background: #333646;
+} 
+
+.wrap_sec {
+  margin: 0 15px;
+  position: relative; 
+  z-index: 1; 
+}
+
+.wrap img {
+  width: 100%;
 }
 
 .section {
-    max-width: 70rem;
+    max-width: 30rem;    
     margin: 0 auto;
-    background: #0a0919;
-    display: flex;
-    padding: 3rem 4rem;
+    background: #dfdbe6;
+    display: block;
+    padding-bottom: 40px;
     text-align: center;
-    align-items: center;
+    position: relative; 
+    z-index: 1; 
   }
 
   .section_img {
-    width: 250px;
-    height: 250px;
+    margin: auto;
+    width: 200px;
+    height: 200px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
     border-radius: 50%;
     overflow: hidden;
+    position: relative;
+    top: -100px;
+    margin-bottom: -70px;
   }
 
   .section_img img { 
@@ -26,16 +58,17 @@
   }
 
   .section_about {
-    padding-left: 2rem;
+    padding-top: 40px;
   }
 
   .section_about h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .section_about h1,
   .section_about p {
-    text-align: left;
+    text-align: center;
+    margin: 16px 0;
   }
 
   span {
@@ -43,19 +76,35 @@
   }
 
   .section_about p {
-    color: white;
-    font-size: 22px;
+    color: #252734;
+    font-size: 20px;
   }
+
+.btn {
+    width: 222px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 16px 24px;
+    background-color: #887392;
+    border-radius: 26px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.btn:hover {
+    background-color: #fa923f;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
   @media (max-width: 768px) {
     .section {
-      display: block;
-      padding: 3rem 0;
-    }
-
-    .section_img {
-        margin: 0 auto; 
-    }
+      max-width: 25rem;
+    } 
 
     .section_about {
         padding-left: 0; 
@@ -70,8 +119,7 @@
       font-size: 18px;
     }
 
-    .section_about h1, 
-    .section_about p {
-        text-align: center;
+    .btn a {
+      font-size: 12px;
     }
   }
