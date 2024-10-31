@@ -1,0 +1,33 @@
+.controls {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+  
+.btn {
+  width: 134px;
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px 25px;
+  border: 1px solid #887392;
+  background-color: #887392;
+  border-radius: 26px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font: inherit;
+  color: #ffffff;
+  transition: all .2s ease 0s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #fa923f;
+  border-color: #fa923f;
+  transition: all .2s ease 0s;
+}
+
+.controls p {
+  color: #ffffff;
+  margin-top: 15px;
+}
+  
