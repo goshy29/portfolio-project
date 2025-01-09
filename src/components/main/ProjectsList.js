@@ -7,8 +7,8 @@ function ProjectsList(props) {
             <h1 className={classes.list_title}>{props.title}</h1>
             {props.projects.length > 0 ?
                 (<ul className={classes.project_items}>
-                    {props.projects.map((project, index) => (
-                        <li key={project.id} className="slide-in-left" style={{ animationDelay: `${index * 0.1}s` }}>
+                    {props.projects.map((project) => (
+                        <li key={project.id}>
                             <ProjectItem
                                 id={project.id}
                                 image={project.image}
