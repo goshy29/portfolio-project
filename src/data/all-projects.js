@@ -444,5 +444,49 @@ export const ALL_PROJECTS = [
       8. Start the frontend development server: npm start
       9. Open the application in your browser: http://localhost:4200      
     `
-  }
+  },
+  {
+    id: 'nextjs-mongodb-docker',
+    image: iron_muscle,
+    title: 'Next.js Project + MongoDB with Docker',
+    description:
+      'A Next.js project with MongoDB database, featuring Docker for simplified running and deployment.',
+    summary: `
+      Project Description:
+      The "IronMuscle" application, built with Next.js and MongoDB, is a modern web app designed for users to share and document their CrossFit or fitness experiences. Users can post their stories to a Blog section from the menu, with details including the title, username, email, and description of their experience, all saved to MongoDB. This application includes the ability to delete blog posts, as well as access a News section with in-memory loaded articles about the fitness world. Now, leveraging Docker and Docker Compose, this project simplifies local setup and deployment, allowing you to quickly spin up the environment with a single command.
+
+      Features:
+      1. Server-Side Rendering (SSR): Uses Next.js for efficient server-side rendering.
+      2. Responsive Design: The application is fully responsive, ensuring an optimal viewing experience across a wide range of devices, from desktops to mobile phones. 
+      3. Full-Stack Architecture: Combines a Next.js frontend and MongoDB database.
+      4. Containerized Deployment: Runs Docker containers for both frontend and MongoDB, streamlining development and deployment.
+
+      Technologies Used:
+      1. Frontend: Next.js, React.js, CSS.
+      2. Backend: Node.js, Express.js (for API routes).
+      3. Database: MongoDB, Mongoose.
+      4. State Management: React Hooks.
+      5. Routing: Next.js Pages Router.
+      6. Containerization: Docker, Docker Compose.
+      7. Version Control: Git, GitHub.
+
+      Project Structure:
+      Frontend: Contains all Next.js components and frontend logic
+      1. Components: Components(some of them reusable) for different sections of the project, including Menu.
+      2. Pages: Separate pages for Home, News, Blog and Share Experience.
+      Backend: Contains all server-side code and database logic.
+      1. API Routes: Define API endpoints for fetching and manipulating project data.
+      2. db-connection: Folder dedicated to managing the MongoDB connection.
+
+      To run this project locally with Docker Compose, follow these steps:
+      1. GitHub: https://github.com/goshy29/nextjs-mongodb-docker
+      2. Clone the repository: https://github.com/goshy29/nextjs-mongodb-docker.git
+      3. Open the project with your code editor(VS Code) and open New Terminal
+      4. Ensure Docker is installed on your computer and running
+      5. Start the services in detached mode: docker-compose up -d
+      6. Open the application in your browser: http://localhost:3000
+      7. To stop services without removing volumes: docker-compose down
+      8. To stop and remove volumes (for a fresh start): docker-compose down -v
+    `      
+  }  
 ]
