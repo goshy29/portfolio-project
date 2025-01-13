@@ -5,6 +5,8 @@ function ProjectsList(props) {
     return (
         <>
             <h1 className={classes.list_title}>{props.title}</h1>
+            <p className={classes.list_subtitle}>{props.subtitle}</p>
+            <p className={classes.list_text}>{props.text}</p>
             {props.projects.length > 0 ?
                 (<ul className={classes.project_items}>
                     {props.projects.map((project, index) => (

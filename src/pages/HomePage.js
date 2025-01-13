@@ -5,6 +5,9 @@ import Topics from "../components/main/topics/Topics";
 import { ALL_PROJECTS } from "../data/all-projects";
 import { Helmet } from "react-helmet";
 
+const text = `These projects are my fun creations, built during my free time to explore new ideas and technologies. 
+    Each one showcases my skills with close to real-world examples, complete with code repositories.`
+
 function HomePage() {
     return (
         <>
@@ -16,7 +19,7 @@ function HomePage() {
             <HeaderAboutSection/>
             <MainSectionLayout>
                 <Topics />
-                <ProjectsList projects={ALL_PROJECTS.slice(0, 3)} title="Latest Projects"/>
+                <ProjectsList projects={ALL_PROJECTS.slice(0, 3)} title="PROJECTS" subtitle="My Work" text={text}/>
             </MainSectionLayout>
         </>        
     );

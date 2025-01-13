@@ -4,7 +4,7 @@ import { TECHNOLOGIES } from "../../../data/technologies";
 function Topics() {
     return ( 
         <>
-            <h1 className={classes.topic}>My topics</h1>
+            <h1 className={classes.topic}>TECHNOLOGIES</h1>
             <p className={classes.topic_p}>Frontend | Backend | Databases</p>
             <ul className={classes.topics}>
                 {TECHNOLOGIES.map((tech, index) => (

@@ -5,16 +5,18 @@ function ProjectsNavigator(props) {
       <div className={classes.wrap}>
         <div className={classes.controls}>
           <p>Page {props.currentPage} of {props.lastPage}</p>
-          {props.currentPage > 1 && (
-            <button className={classes.btn} onClick={props.onPrevious}>
-              Previous 
+          <div className={classes.buttons}>
+            <button 
+              className={`${classes.btn} ${props.currentPage === 1 ? classes.disabled : ""}`}
+              onClick={props.currentPage > 1 ? props.onPrevious : null} disabled={props.currentPage === 1}>
+                Previous
             </button>
-          )}
-          {props.currentPage < props.lastPage && (
-            <button className={classes.btn} onClick={props.onNext}>
-              Next
+            <button 
+              className={`${classes.btn} ${props.currentPage === props.lastPage ? classes.disabled : ""}`}
+              onClick={props.currentPage < props.lastPage ? props.onNext : null} disabled={props.currentPage === props.lastPage}>
+                Next
             </button>
-          )}
+          </div>
         </div>
       </div>
     );
