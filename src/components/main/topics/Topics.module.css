@@ -33,6 +33,12 @@
     height: auto;
     width: 70px; 
     height: 70px;    
+    transition: all .3s ease 0s;
+}
+
+.topics li img:hover {
+    transform: translateY(-10px);
+    transition: all .3s ease 0s;
 }
 
 .techName {
