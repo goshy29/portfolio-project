@@ -19,7 +19,7 @@ function HomePage() {
             <HeaderAboutSection/>
             <MainSectionLayout>
                 <Topics />
-                <ProjectsList projects={ALL_PROJECTS.slice(0, 3)} title="PROJECTS" subtitle="My Work" text={text}/>
+                <ProjectsList projects={ALL_PROJECTS.slice(0, 3)} title="PROJECTS" subtitle="My Work" text={text} projectsListCall="homepage"/>
             </MainSectionLayout>
         </>        
     );

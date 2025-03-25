@@ -1,7 +1,12 @@
+.about_wrap {
+  overflow: hidden;
+  max-width: 70rem;
+}
+
 .about {
-    width: 95%;
-    max-width: 60rem;
-    margin: 6px auto;
+    width: 100%;
+    /* max-width: 60rem; */
+    /* margin: auto; */
     line-height: 8px;
     background-color: #dfdbe6;
     border-radius: 6px;

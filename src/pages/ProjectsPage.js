@@ -34,7 +34,7 @@ function ProjectsPage() {
             </Helmet>
 
             <MainSectionLayout>
-                <ProjectsList projects={currentProjects} title="ALL PROJECTS" subtitle="My Latest Articles" text=""/>
+                <ProjectsList projects={currentProjects} title="ALL PROJECTS" subtitle="My Latest Articles" text="" projectsListCall="projectspage"/>
                 <ProjectsNavigator onNext={handlerNextPage} onPrevious={handlerPreviousPage} currentPage={currentPage} lastPage={totalPages} />
             </MainSectionLayout>
         </>

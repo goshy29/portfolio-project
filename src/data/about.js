@@ -6,7 +6,7 @@ export const ABOUT = {
         Email: georgi.dobromirov@gmail.com
         LinkedIn: https://www.linkedin.com/in/georgi-dobromirov-aa3946280/
 
-        Hello! My name is Georgi Dobromirov and I am graduate of the University of Economics - Varna, where I earned my bachelor's degree in Informatics. I have years of experience as a software developer. On this site you will find some nice looking projects at React, Next.js and Angular which i prepare for you with different configurations of databases they communicate with. Each project includes description, some other details, GitHub repository link, everything you need to start the projects locally. I will be glad if you call me.
+        Hello! My name is Georgi Dobromirov and I am graduate of the University of Economics - Varna, where I earned my bachelor's degree in Informatics. I have years of experience as a software developer. In real life I am a complex person who always challenges myself with different things and I try to bring this same complexity to my work. On this site, you will find a collection of well-designed projects built with React, Next.js, and Angular, each configured to communicate with different databases. I have combined these technologies to create several React and Next.js projects with Java (Spring) and Node (Express.js) backends. Each project includes description, some other details, GitHub repository link, everything you need to start the projects locally. I will be glad if you call me.
 
         WORK EXPERIENCE
         Senior Software Developer

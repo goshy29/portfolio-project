@@ -37,7 +37,7 @@
 }
 
 .topics li img:hover {
-    transform: translateY(-10px);
+    transform: translateY(-12px);
     transition: all .3s ease 0s;
 }
 
