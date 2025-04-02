@@ -1,0 +1,36 @@
+.about_title {
+    color: white;
+    font-size: 40px;
+    text-align: left;
+    padding: 8px 0;
+}
+
+.about_subtitle {
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    padding-bottom: 26px;
+}
+
+.about_text {
+    width: 65%;
+    color: white;
+    padding-bottom: 42px;
+    line-height: 25px; 
+    text-align: justify; 
+}
+
+@media (max-width: 768px) {
+    .about_title {
+        font-size: 26px;  
+    }
+
+    .about_subtitle {
+        font-size: 14px;  
+    }
+
+    .about_text {
+        font-size: 14px;  
+        width: 100%; 
+    }
+}

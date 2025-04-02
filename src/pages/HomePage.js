@@ -1,5 +1,6 @@
 import HeaderAboutSection from "../components/header/HeaderAboutSection";
 import MainSectionLayout from "../components/layout/MainSectionLayout";
+import AboutPreview from "../components/main/about-preview/AboutPreview";
 import ProjectsList from "../components/main/ProjectsList";
 import Topics from "../components/main/topics/Topics";
 import { ALL_PROJECTS } from "../data/all-projects";
@@ -18,6 +19,7 @@ function HomePage() {
 
             <HeaderAboutSection/>
             <MainSectionLayout>
+                <AboutPreview />
                 <Topics />
                 <ProjectsList projects={ALL_PROJECTS.slice(0, 3)} title="PROJECTS" subtitle="My Work" text={text} projectsListCall="homepage"/>
             </MainSectionLayout>
