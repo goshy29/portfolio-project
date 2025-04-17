@@ -3,6 +3,7 @@ import MainSectionLayout from "../components/layout/MainSectionLayout";
 import AboutPreview from "../components/main/about-preview/AboutPreview";
 import ProjectsList from "../components/main/ProjectsList";
 import Topics from "../components/main/topics/Topics";
+import Experience from "../components/main/experience/Experience";
 import { ALL_PROJECTS } from "../data/all-projects";
 import { Helmet } from "react-helmet";
 
@@ -20,6 +21,7 @@ function HomePage() {
             <HeaderAboutSection/>
             <MainSectionLayout>
                 <AboutPreview />
+                <Experience />
                 <Topics />
                 <ProjectsList projects={ALL_PROJECTS.slice(0, 3)} title="PROJECTS" subtitle="My Work" text={text} projectsListCall="homepage"/>
             </MainSectionLayout>
