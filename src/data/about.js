@@ -12,10 +12,11 @@ export const ABOUT = {
         Senior Software Developer
         Tonegan Ltd, Dobrich (Dec 2015 - Present)
         Development of Business Software Products ‑ Enterprise Resource Planning (ERP) solutions.
-        • Writing program codes described in technical assignments and specifications in accordance with quality
-        • Ensuring the quality of the product by testing and removing defects
-        • Providing support for the developed software
-        • Fixing and improving the software in order to increase their operational efficiency or adapt them to new requirements
+        • Participation in the development and maintenance of a modularly organized ERP system with logical division of business processes(Production, Sales, Warehouse, Accounting, VAT, etc.).
+        • Phased implementation and configuration of ERP modules according to customer needs, with flexibility for expansion.
+        • Participation in custom software development, including specific modules for customer production and sales activities.
+        • Integration of mobile solutions for working on the go and managing sales and deliveries on site at the customer.
+        • Active role in expanding the functionality of the ERP system by creating additional tools and functionalities.
 
         EDUCATION
         Barchelor's degree "Informatics" (Oct 2011 - Sep 2015)
