@@ -3,7 +3,7 @@ import classes from "./MobileNavigation.module.css";
 function MobileNavigation(props) {
     return ( 
         <aside className={classes.mobile_nav}>
-            <button className={classes.close_button} onClick={props.onClose}>
+            <button className={classes.close_button} onClick={props.onClose} aria-label="Close menu">
                 &times;
             </button>
             {props.children}

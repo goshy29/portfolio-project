@@ -23,3 +23,21 @@ body {
   padding: 0 10px;
   color: white;
 }
+
+.error_link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 18px;
+  background-color: #887392;
+  color: #ffffff;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  transition: all .2s ease 0s;
+}
+
+.error_link:hover {
+  background-color: #fa923f;
+}

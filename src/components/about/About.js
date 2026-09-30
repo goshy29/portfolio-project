@@ -3,18 +3,18 @@ import { ABOUT } from "../../data/about";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { slideIn } from "../utils/motion";
+import LinkifiedText from "../utils/LinkifiedText";
 
 function About() {
-    ABOUT.about_me = ABOUT.about_me.replace(/\n/g, "<br />");
     const {ref, inView} = useInView({triggerOnce: true});
 
-    return ( 
+    return (
         <div className={classes.about_wrap}>
-            <motion.div ref={ref} variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden" animate={inView ? "show" : "hidden"} 
+            <motion.div ref={ref} variants={slideIn('left', 'tween', 0.2, 1)} initial="hidden" animate={inView ? "show" : "hidden"}
                     className={classes.about}>
-                <p dangerouslySetInnerHTML={{
-                    __html: ABOUT.about_me
-                }}></p>
+                <p>
+                    <LinkifiedText text={ABOUT.about_me.trim()} />
+                </p>
             </motion.div>
         </div>
     );

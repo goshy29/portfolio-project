@@ -32,7 +32,8 @@ function MainNavigation() {
             <header className={classes.main_header}>
                 <div className={classes.navigation}>
                     <nav className={classes.navbar}>
-                        <button className={classes.mobileNav_btn_menu} onClick={handlerOpenMobileNav}>
+                        <button className={classes.mobileNav_btn_menu} onClick={handlerOpenMobileNav}
+                            aria-label="Open menu" aria-expanded={isMobileNavOpen}>
                             <span />
                             <span />
                             <span />

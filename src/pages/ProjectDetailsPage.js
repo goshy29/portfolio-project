@@ -1,34 +1,29 @@
 import MainSectionLayout from "../components/layout/MainSectionLayout";
-import { useParams, useNavigate } from "react-router-dom";
-import { useEffect } from "react";
+import { useParams } from "react-router-dom";
 import { ALL_PROJECTS } from "../data/all-projects";
 import ProjectItemDetails from "../components/main/ProjectItemDetails";
+import ErrorPage from "./ErrorPage";
 import { Helmet } from "react-helmet";
 
 function ProjectDetailsPage() {
     const { projectId } = useParams();
     const project = ALL_PROJECTS.find(p => p.id === projectId);
-    const navigate = useNavigate();
 
-    useEffect(() => {
-        if (!project) {
-            navigate("*");
-        }
-    }, [project, navigate]);
+    if (!project) {
+        return <ErrorPage />;
+    }
 
     return (
-        project && (
-            <>
-                <Helmet>
-                    <title>{project.title}</title>
-                    <meta name="description" content={project.description} />
-                </Helmet>
+        <>
+            <Helmet>
+                <title>{project.title}</title>
+                <meta name="description" content={project.description} />
+            </Helmet>
 
-                <MainSectionLayout>
-                    <ProjectItemDetails project={project} />
-                </MainSectionLayout>
-            </>
-        )
+            <MainSectionLayout>
+                <ProjectItemDetails project={project} />
+            </MainSectionLayout>
+        </>
     );
 }
 

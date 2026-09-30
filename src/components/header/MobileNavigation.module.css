@@ -13,10 +13,24 @@
 .close_button {
     background: none;
     border: none;
-    font-size: 3.5rem;
+    border-radius: 8px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    line-height: 1;
     position: absolute;
-    top: 2px;
+    top: 8px;
     right: 10px;
     cursor: pointer;
     color: #fff;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.close_button:hover {
+    color: #fa923f;
+    background-color: rgba(255, 255, 255, 0.08);
+    transform: rotate(90deg);
 }

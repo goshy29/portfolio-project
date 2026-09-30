@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 function ErrorPage() {
@@ -11,6 +12,7 @@ function ErrorPage() {
             <div className="error">
                 <h1>404 - Page Not Found</h1>
                 <p>The page you are looking for does not exist.</p>
+                <Link to="/" className="error_link">BACK TO HOME</Link>
             </div>
         </>
     );

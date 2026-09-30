@@ -9,6 +9,7 @@ export const ALL_PROJECTS = [
     id: 'react-portfolio',
     image: portfolio,
     title: 'React Portfolio Website',
+    github: 'https://github.com/goshy29/portfolio-project',
     description:
       'A Portfolio Project created on React with an in-memory database.',
     summary: `
@@ -47,6 +48,7 @@ export const ALL_PROJECTS = [
     id: 'react-express-mongodb',
     image: my_places,
     title: 'React Project + Express.js + MongoDB',
+    github: 'https://github.com/goshy29/react-express-mongodb',
     description:
       'A React project with Express for handling server-side logic and MongoDB data storage.',
     summary: `
@@ -92,6 +94,7 @@ export const ALL_PROJECTS = [
     id: 'nextjs-mongodb',
     image: iron_muscle,
     title: 'Next.js Project + MongoDB',
+    github: 'https://github.com/goshy29/nextjs-mongodb',
     description:
       'A Next.js project with MongoDB database integration for scalable data storage.',
     summary: `
@@ -132,6 +135,7 @@ export const ALL_PROJECTS = [
     id: 'angular-express-mongodb',
     image: cake_world,
     title: 'Angular Project + Express.js + MongoDB', 
+    github: 'https://github.com/goshy29/angular-express-mongodb',
     description:
       'A Angular project with Express for handling server-side logic and MongoDB data storage.',
     summary: `
@@ -177,6 +181,7 @@ export const ALL_PROJECTS = [
     id: 'react-express-postgresql',
     image: my_places,
     title: 'React Project + Express.js + PostgreSQL',
+    github: 'https://github.com/goshy29/react-express-postgresql',
     description:
       'A React project with Express for handling server-side logic and PostgreSQL for data storage.',
     summary: `
@@ -223,6 +228,7 @@ export const ALL_PROJECTS = [
     id: 'nextjs-postgresql',
     image: iron_muscle,
     title: 'Next.js Project + PostgreSQL',
+    github: 'https://github.com/goshy29/nextjs-postgresql',
     description:
       'A Next.js project with PostgreSQL for data storage.',
     summary: `
@@ -265,6 +271,7 @@ export const ALL_PROJECTS = [
     id: 'angular-express-postgresql',
     image: cake_world,
     title: 'Angular Project + Express.js + PostgreSQL', 
+    github: 'https://github.com/goshy29/angular-express-postgresql',
     description:
     'A Angular project with Express for handling server-side logic and PostgreSQL for data storage.',
     summary: `
@@ -310,6 +317,7 @@ export const ALL_PROJECTS = [
     id: 'react-spring-postgresql',
     image: my_places,
     title: 'React Project + Spring Boot + PostgreSQL',
+    github: 'https://github.com/goshy29/react-spring-postgresql',
     description:
       'A React project with Spring for handling server-side logic and PostgreSQL for data storage.',
     summary: `
@@ -357,6 +365,7 @@ export const ALL_PROJECTS = [
     id: 'nextjs-spring-postgresql',
     image: iron_muscle,
     title: 'Next.js Project + Spring Boot + PostgreSQL',
+    github: 'https://github.com/goshy29/nextjs-spring-postgresql',
     description:
       'A Next.js project with Spring for handling server-side logic and PostgreSQL for data storage.',
     summary: `
@@ -403,6 +412,7 @@ export const ALL_PROJECTS = [
     id: 'angular-spring-postgresql',
     image: cake_world,
     title: 'Angular Project + Spring Boot + PostgreSQL', 
+    github: 'https://github.com/goshy29/angular-spring-postgresql',
     description:
       'A Angular project with Spring for handling server-side logic and PostgreSQL for data storage.',
     summary: `
@@ -450,6 +460,7 @@ export const ALL_PROJECTS = [
     id: 'nextjs-mongodb-docker',
     image: iron_muscle,
     title: 'Next.js Project + MongoDB with Docker',
+    github: 'https://github.com/goshy29/nextjs-mongodb-docker',
     description:
       'A Next.js project with MongoDB database, featuring Docker for simplified running and deployment.',
     summary: `
@@ -494,6 +505,7 @@ export const ALL_PROJECTS = [
     id: 'react-movies-demo',
     image: cinemahome,
     title: 'React Movies Project Demo',
+    github: 'https://github.com/goshy29/react-movies-demo',
     description:
       'A React Movies Project Demo with an in-memory database to store and manage project data.',
     summary: `

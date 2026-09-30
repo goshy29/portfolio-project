@@ -1,6 +1,7 @@
 .wrap {
   position: relative;
-  background-image: url("../../assets/images//backg.jpg");
+  background-color: #252734;
+  background-image: url("../../assets/images/backg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -72,7 +73,7 @@
     margin: 16px 0;
   }
 
-  span {
+  .highlight {
     color: lightsalmon;
   }
 
@@ -82,6 +83,9 @@
   }
 
 .btn {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
     width: 222px;
     margin: auto;
     margin-top: 40px;
@@ -97,11 +101,6 @@
 .btn:hover {
     background-color: #fa923f;
     transition: all .2s ease 0s;
-}
-
-.btn a {
-    text-decoration: none;
-    color: #ffffff;
 }
 
   @media (max-width: 768px) {
@@ -122,7 +121,7 @@
       font-size: 18px;
     }
 
-    .btn a {
+    .btn {
       font-size: 12px;
     }
   }
