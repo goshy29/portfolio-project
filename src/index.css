@@ -11,6 +11,16 @@ body {
   background: #333646;
 }
 
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 .center {
   text-align: center;
   padding-bottom: 2rem;
@@ -40,4 +50,14 @@ body {
 
 .error_link:hover {
   background-color: #fa923f;
+}
+
+@media (max-width: 768px) {
+  .error h1 {
+    font-size: 26px;
+  }
+
+  .error p {
+    font-size: 14px;
+  }
 }

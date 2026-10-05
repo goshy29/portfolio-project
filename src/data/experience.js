@@ -1,8 +1,10 @@
+import tonegan from "../assets/icons/tonegan.png";
+
 export const EXPERIENCE = [
     {
         title: "Software Developer",
         company_name: "Tonegan Ltd (Dobrich, Bulgaria)",
-        icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5aDgyp554MtG00y3UMjXES5wVjOWk9XWFuQ&s",
+        icon: tonegan,
         date: "December 2015 - Present",
         descriptions: [
             "Developing and maintaining Enterprise Resource Planning (ERP) solutions using Delphi, Android and MS SQL Server.",

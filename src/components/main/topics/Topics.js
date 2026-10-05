@@ -17,8 +17,8 @@ function Topics() {
 
             <motion.div ref={techRef} variants={fadeIn("up", "tween", 0.1, 1)} initial="hidden" animate={techInView ? "show" : "hidden"}>
                 <ul className={classes.topics}>
-                    {TECHNOLOGIES.map((tech, index) => (
-                    <li key={index}>
+                    {TECHNOLOGIES.map((tech) => (
+                    <li key={tech.name}>
                         <img src={tech.img_url} alt={tech.name} />
                         <p className={classes.techName}>{tech.name}</p>
                     </li>
