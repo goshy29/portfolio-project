@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
 import MobileNavigation from "./MobileNavigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import MobileNavWrap from "../UIElements/MobileNavWrap";
 import NavLinks from "./NavLinks";
 
@@ -15,6 +15,21 @@ function MainNavigation() {
     function handlerCloseMobileNav() {
         setIsMobileNavOpen(false);
     }
+
+    useEffect(() => {
+        if (!isMobileNavOpen) {
+            return;
+        }
+
+        function handlerKeyDown(event) {
+            if (event.key === "Escape") {
+                setIsMobileNavOpen(false);
+            }
+        }
+
+        document.addEventListener("keydown", handlerKeyDown);
+        return () => document.removeEventListener("keydown", handlerKeyDown);
+    }, [isMobileNavOpen]);
 
     return (
         <>

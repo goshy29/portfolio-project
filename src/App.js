@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import { MotionConfig } from "framer-motion";
 import Layout from "./components/layout/Layout";
 import HomePage from "./pages/HomePage";
 import ProjectsPage from "./pages/ProjectsPage";
@@ -9,16 +10,18 @@ import ScrollToTop from "./components/utils/ScrollToTop";
 
 function App() {
   return (
-    <Layout>
-      <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<HomePage />} exact />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/projects" element={<ProjectsPage />} />
-        <Route path="/projects/:projectId" element={<ProjectDetailsPage />} />
-        <Route path="*" element={<ErrorPage />} />
-      </Routes>
-    </Layout>
+    <MotionConfig reducedMotion="user">
+      <Layout>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<HomePage />} exact />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+          <Route path="/projects/:projectId" element={<ProjectDetailsPage />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+      </Layout>
+    </MotionConfig>
   );
 }
 

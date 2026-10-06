@@ -16,7 +16,7 @@ function ProjectDetailsPage() {
     return (
         <>
             <Helmet>
-                <title>{project.title}</title>
+                <title>{`${project.title} | Georgi Dobromirov`}</title>
                 <meta name="description" content={project.description} />
             </Helmet>
 

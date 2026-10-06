@@ -1,5 +1,5 @@
 .footer {
-  background-color: #252734;
+  background-color: var(--color-dark-navy);
   padding: 8px;
   text-align: center;
 }
@@ -15,12 +15,12 @@
   display: block;
   width: 20px;
   height: 20px;
-  color: #ffffff;
+  color: var(--color-white);
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .links a:hover {
-  color: #fa923f;
+  color: var(--color-orange);
   transform: translateY(-2px);
 }
 
@@ -31,6 +31,6 @@
 
 .copyright {
   margin-top: 6px;
-  color: #887392;
+  color: var(--color-purple);
   font-size: 12px;
 }

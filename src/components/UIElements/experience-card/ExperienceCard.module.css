@@ -1,7 +1,7 @@
-/* contentStyle={{ background: '#1d1836', color: '#fff' }} */
+/* contentStyle={{ background: '#1d1836', color: 'var(--color-white)' }} */
 .vertical_tl_el_style {
-    background: #252734;
-    color: #fff;    
+    background: var(--color-dark-navy);
+    color: var(--color-white);    
 }
 
 /* contentArrowStyle={{ borderRight: '7px solid #232631' }} */
@@ -25,13 +25,13 @@
 }
 
 .title {
-    color: white;          
+    color: var(--color-white);          
     font-size: 24px;       
     font-weight: bold;    
 }
 
 .subtitle {
-    color: white;
+    color: var(--color-white);
     font-size: 16px;              
     font-weight: 600;              
     margin: 0;     

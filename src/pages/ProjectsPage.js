@@ -29,12 +29,12 @@ function ProjectsPage() {
     return (
         <>
             <Helmet>
-                <title>All Projects</title>  
+                <title>All Projects | Georgi Dobromirov</title>  
                 <meta name="description" content="Explore my projects at My Website." /> 
             </Helmet>
 
             <MainSectionLayout>
-                <ProjectsList projects={currentProjects} title="ALL PROJECTS" subtitle="My Latest Articles" text="" projectsListCall="projectspage"/>
+                <ProjectsList projects={currentProjects} title="ALL PROJECTS" subtitle="Full-Stack Projects" text="" projectsListCall="projectspage"/>
                 <ProjectsNavigator onNext={handlerNextPage} onPrevious={handlerPreviousPage} currentPage={currentPage} lastPage={totalPages} />
             </MainSectionLayout>
         </>

@@ -5,7 +5,7 @@ function ErrorPage() {
     return (
         <>
             <Helmet>
-                <title>Error</title>
+                <title>Page Not Found | Georgi Dobromirov</title>
                 <meta name="description" content="Page Not Found." />
             </Helmet>
 

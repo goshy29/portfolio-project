@@ -14,7 +14,7 @@ function HomePage() {
     return (
         <>
             <Helmet>
-                <title>Home</title>  
+                <title>Georgi Dobromirov – Software Developer</title>  
                 <meta name="description" content="Welcome to the Home Page of My Website." /> 
             </Helmet>
 

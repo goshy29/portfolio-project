@@ -1,6 +1,6 @@
 .wrap {
   position: relative;
-  background-color: #252734;
+  background-color: var(--color-dark-navy);
   background-image: url("../../assets/images/backg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +18,7 @@
   right: 0;
   height: 100px;
   z-index: 0;
-  background: #333646;
+  background: var(--color-page-background);
 } 
 
 .wrap_sec {
@@ -34,7 +34,7 @@
 .section {
     max-width: 30rem;    
     margin: 0 auto;
-    background: #dfdbe6;
+    background: var(--color-light-card);
     display: block;
     padding-bottom: 40px;
     text-align: center;
@@ -74,23 +74,23 @@
   }
 
   .highlight {
-    color: lightsalmon;
+    color: var(--color-salmon);
   }
 
   .section_about p {
-    color: #252734;
+    color: var(--color-dark-navy);
     font-size: 20px;
   }
 
 .btn {
     display: block;
-    color: #ffffff;
+    color: var(--color-white);
     text-decoration: none;
     width: 222px;
     margin: auto;
     margin-top: 40px;
     padding: 16px 24px;
-    background-color: #887392;
+    background-color: var(--color-purple);
     border-radius: 26px;
     font-weight: bold;
     cursor: pointer;
@@ -99,7 +99,7 @@
 }
 
 .btn:hover {
-    background-color: #fa923f;
+    background-color: var(--color-orange);
     transition: all .2s ease 0s;
 }
 

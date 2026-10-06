@@ -5,16 +5,13 @@
 
 .about {
     width: 100%;
-    /* max-width: 60rem; */
-    /* margin: auto; */
-    line-height: 8px;
-    background-color: #dfdbe6;
+    background-color: var(--color-light-card);
     border-radius: 6px;
     padding: 8px;
   }
 
 .about p {
-  color: #252734;
+  color: var(--color-dark-navy);
   font-size: 18px;
   line-height: 1.2;
   padding: 0.5rem;

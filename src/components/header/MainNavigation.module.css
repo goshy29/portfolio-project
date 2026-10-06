@@ -5,7 +5,7 @@
 }
 
 .navigation {
-  background-color: #252734;
+  background-color: var(--color-dark-navy);
   width: 100%;
 }
 
@@ -19,12 +19,12 @@
 }
 
 .navbar_logo {
-    color: #fff;
+    color: var(--color-white);
   }
 
 .navbar_logo_link {
     text-decoration: none;
-    color: #fff;
+    color: var(--color-white);
     font-weight: bold;
     letter-spacing: 0.15rem;
     text-transform: uppercase;
@@ -42,7 +42,7 @@
   }
   
   .navbar_link {
-    color: #fff;
+    color: var(--color-white);
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
@@ -50,12 +50,12 @@
   }
   
   .navbar_link:hover {
-    background-color: #fa923f;
+    background-color: var(--color-orange);
   }
 
   .active {
-    background-color: #fa923f;
-    color: #fff;
+    background-color: var(--color-orange);
+    color: var(--color-white);
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 5px;
@@ -98,7 +98,7 @@
     width: 24px;
     height: 3px;
     border-radius: 3px;
-    background: white;
+    background: var(--color-white);
     transition: width 0.3s ease, background-color 0.3s ease;
   }
 
@@ -108,7 +108,7 @@
 
   .mobileNav_btn_menu:hover span {
     width: 24px;
-    background: #fa923f;
+    background: var(--color-orange);
   }
 
   @media (max-width: 768px) {

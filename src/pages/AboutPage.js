@@ -6,7 +6,7 @@ function AboutPage() {
     return (
         <>
             <Helmet>
-                <title>About</title>  
+                <title>About | Georgi Dobromirov</title>  
                 <meta name="description" content="Learn more about the creator of this Website." /> 
             </Helmet>
 

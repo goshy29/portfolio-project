@@ -1,5 +1,5 @@
 .about_title {
-    color: white;
+    color: var(--color-white);
     font-size: 40px;
     text-align: left;
     padding: 8px 0;
@@ -8,13 +8,13 @@
 .about_subtitle {
     font-size: 18px;
     text-align: left;
-    color: white;
+    color: var(--color-white);
     padding-bottom: 26px;
 }
 
 .about_text {
     width: 65%;
-    color: white;
+    color: var(--color-white);
     padding-bottom: 42px;
     line-height: 25px; 
     text-align: justify; 

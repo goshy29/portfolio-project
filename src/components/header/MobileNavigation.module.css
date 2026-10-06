@@ -5,7 +5,7 @@
     z-index: 1002;
     height: 100vh;
     width: 320px;
-    background: #252734;
+    background: var(--color-dark-navy);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     padding-top: 50px;
 }
@@ -25,12 +25,12 @@
     top: 8px;
     right: 10px;
     cursor: pointer;
-    color: #fff;
+    color: var(--color-white);
     transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
 }
 
 .close_button:hover {
-    color: #fa923f;
+    color: var(--color-orange);
     background-color: rgba(255, 255, 255, 0.08);
     transform: rotate(90deg);
 }

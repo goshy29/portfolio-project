@@ -1,5 +1,5 @@
 .topic {
-    color: lightsalmon;
+    color: var(--color-salmon);
     font-size: 40px;
     text-align: left;
     padding-top: 8px;
@@ -9,7 +9,7 @@
 .topic_p {
     font-size: 18px;
     text-align: left;
-    color: white;
+    color: var(--color-white);
     padding-bottom: 16px;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .techName {
-    color: white;
+    color: var(--color-white);
     font-size: 14px;
     margin-top: 8px;
 }
