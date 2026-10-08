@@ -24,7 +24,7 @@ function Footer() {
                     </a>
                 </li>
             </ul>
-            <p className={classes.copyright}>&copy; 2024&ndash;{new Date().getFullYear()} Georgi Dobromirov</p>
+            <p className={classes.copyright}>&copy; {new Date().getFullYear()} Georgi Dobromirov</p>
         </footer>
     );
 }

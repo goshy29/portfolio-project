@@ -8,6 +8,14 @@
   --color-light-card: #dfdbe6;
   --color-salmon: lightsalmon;
   --color-white: #ffffff;
+
+  --header-height: 62px;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --header-height: 48px;
+  }
 }
 
 * {
