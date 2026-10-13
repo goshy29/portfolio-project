@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
 import MobileNavigation from "./MobileNavigation";
 import { useState, useEffect } from "react";
+import { AnimatePresence } from "framer-motion";
 import MobileNavWrap from "../UIElements/MobileNavWrap";
 import NavLinks from "./NavLinks";
 
@@ -33,16 +34,18 @@ function MainNavigation() {
 
     return (
         <>
-            {isMobileNavOpen && (<MobileNavWrap onClick={handlerCloseMobileNav}/>)}
-            {isMobileNavOpen && 
-                (<MobileNavigation onClose={handlerCloseMobileNav}>
-                    <nav className={classes.mobile_navbar}>
-                        <ul className={classes.mobile_navbar_list}>
-                            <NavLinks onClick={handlerCloseMobileNav} />
-                        </ul>    
-                    </nav>        
-                </MobileNavigation>)
-            }
+            <AnimatePresence>
+                {isMobileNavOpen && (<MobileNavWrap key="mobile-nav-wrap" onClick={handlerCloseMobileNav}/>)}
+                {isMobileNavOpen &&
+                    (<MobileNavigation key="mobile-nav" onClose={handlerCloseMobileNav}>
+                        <nav className={classes.mobile_navbar}>
+                            <ul className={classes.mobile_navbar_list}>
+                                <NavLinks onClick={handlerCloseMobileNav} />
+                            </ul>
+                        </nav>
+                    </MobileNavigation>)
+                }
+            </AnimatePresence>
         
             <header className={classes.main_header}>
                 <div className={classes.navigation}>
@@ -55,7 +58,7 @@ function MainNavigation() {
                         </button>
 
                         <div className={classes.navbar_logo}>
-                            <Link to="/" className={classes.navbar_logo_link}>GD</Link>
+                            <Link to="/" className={classes.navbar_logo_link}>GeorgiDobromirov</Link>
                         </div>
                         <ul className={classes.navbar_list}>
                             <NavLinks/>
